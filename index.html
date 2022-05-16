@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/fontes.css">
+  <link rel="stylesheet" href="./src/css/animacoes.css">
+  <link rel="stylesheet" href="./src/css/styles.css">
+  <link rel="stylesheet" href="./src/css/variaveis.css">
+  <link rel="stylesheet" href="./src/css/responsivo.css">
+
+  <title>Escolha seu personagem - MapaDev Week</title>
+</head>
+<body>
+    <main>
+      <header class="cabecalho">
+        <h1 class="titulo">Character Select</h1>
+      </header>
+
+      <div class="selecao-de-personagens">
+        <div class="personagem-grande personagem-jogador-1">
+          <img src="./src/imagens/batman-full.png" alt="Personagem selecionado jogador 1" id="personagem-jogador-1">
+          <div class="nome">
+            <h2 id="nome-jogador-1">Batman</h2>
+          </div>
+        </div>
+
+        <!--Lista de seleção-->
+
+        <ul class="lista-de-personagens">
+          <li class="personagem selecionado" id="batman-full" data-name="Batman"> <!--data-name: Nome de exibição-->
+            <span class="tag">1P</span>
+            <img src="./src/imagens/batman.jpg" alt="Personagem Batman">
+          </li>
+
+          
+          <li class="personagem" id="nightwing-full" data-name="Asa Noturna"> 
+            <span class="tag">1P</span>
+            <img src="./src/imagens/nightwing.png" alt="Personagem Asa Noturna">
+          </li>
+          <li class="personagem" id="bane-full" data-name="Bane"> 
+            <span class="tag">1P</span>
+            <img src="./src/imagens/bane.jpg" alt="Personagem Bane">
+          </li>
+          
+          <li class="personagem" id="red-hood-full" data-name="Capuz Vermelho"> 
+            <span class="tag">1P</span>
+            <img src="./src/imagens/red-hood.jpg" alt="Personagem Capuz Vermelho">
+          </li>
+
+          <li class="personagem" id="deadshot-full" data-name="Pistoleiro"> 
+            <span class="tag">1P</span>
+            <img src="./src/imagens/deeadshot.jpg" alt="Personagem Pistoleiro">
+          </li>
+
+          <!--Jogador com tag 2P é o único personagem a ter uma classe diferente-->
+          <li class="personagem jogador-2-selecionado" id="deathstroke-full" data-name="Exterminador"> 
+            <span class="tag">2P</span>
+            <img src="./src/imagens/deathstroke.jpg" alt="Personagem Deathstroke">
+          </li>
+
+          <li class="personagem" id="batgirl-full" data-name="Batgirl"> 
+            <span class="tag">1P</span>
+            <img src="./src/imagens/batgirl.jpeg" alt="Personagem Batgirl">
+          </li>
+
+          <li class="personagem" id="catwoman-full" data-name="Mulher Gato"> 
+            <span class="tag">1P</span>
+            <img src="./src/imagens/catwoman.jpg" alt="Personagem Mulher Gato">
+          </li>
+
+          <li class="personagem" id="talon-full" data-name="Talon"> 
+            <span class="tag">1P</span>
+            <img src="./src/imagens/talon.jpg" alt="Personagem Talon">
+          </li>
+
+        </ul>
+
+        <div class="personagem-grande personagem-jogador-2">
+          <img src="./src/imagens/deathstroke-full.png" alt="Personagem selecionado Exterminador" id="personagem-jogador-2">
+          <div class="nome">
+            <h2>Exterminador</h2>
+          </div>
+         </div>
+
+      </div>
+
+    </main>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
